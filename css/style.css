@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+.column {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px #f2f2f2;
+}
+.header__word{
+    font-weight: 400;
+    display: inline-flex;
+    color: #3c3c3c;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.body{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 130px;
+    font-size: 34px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+.line{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80PX;
+    border-bottom: 2px solid #000;
+    position: relative;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.deskription_about {
+    line-height: 23px;
+    display: inline-flex;
+    margin-top: 30px;
+    text-align: center;
+    color: #868585;
+    max-width: 650px;
+}
+
+.column__end {
+    display: flex;
+    margin-top: 80px;
+    max-width: 900px;
+    text-align: center;
+    gap: 70px;
+    
+}
+.title {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.decrkiption {
+    display: flex;
+    margin-top: 30px;
+    font-size: #868585;
+    line-height: 23px;
+}
+.item-icon::before{
+    font-size: 50px;
+}

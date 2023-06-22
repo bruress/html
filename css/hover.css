@@ -1,0 +1,5 @@
+.header__word:hover {
+    cursor: pointer;
+    color:  #ada074;
+    transition: ease-in-out;
+}
